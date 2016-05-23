@@ -1,4 +1,4 @@
-# datasets
+# datasets and code
 
 *replicate or extend my work*
 
@@ -9,4 +9,4 @@
 
 - [is china’s stock market leading the s&p 500?](http://blogs.piie.com/china/?p=4611); [data](https://github.com/zilinskyjan/datasets/blob/master/china/shanghai_sp_correlation.csv)
 
-
+- [is the fed behind the curve?](https://piie.com/blogs/realtime-economic-issues-watch/fed-behind-curve); [code]; [step-by-step explanation](http://janzilinsky.com/stata-reshape-dataset/)
