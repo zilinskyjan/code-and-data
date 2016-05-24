@@ -1,4 +1,4 @@
-day,year,sseclose,sp500close,see_return,sp500_return,120-day correlation between Shanghai Composite Index and S&P500 returns,
+day,year,sseclose,sp500close,sse_return,sp500_return,120-day correlation between Shanghai Composite Index and S&P500 returns,
 1/3/2000,2000,1366.579956,1455.219971,0,-0.009549109,,
 1/4/2000,2000,1406.369995,1399.420044,0.029116509,-0.038344666,,
 1/5/2000,2000,1409.680054,1402.109985,0.002353619,0.001922183,,
