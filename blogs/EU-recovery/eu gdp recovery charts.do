@@ -17,7 +17,7 @@ gen gdpindex=(gdp/gdpbase)*100
 keep if year >=2007
 */
 
-import delimited "https://raw.githubusercontent.com/zilinskyjan/datasets/master/blogs/recovery_ameco-based-gdp.csv"
+import delimited "https://raw.githubusercontent.com/zilinskyjan/datasets/master/blogs/EU-recovery/recovery_ameco-based-gdp.csv"
 
 gen show = (euroarea==1)
 gen show2 = (country != "EA")
