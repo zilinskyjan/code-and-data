@@ -49,11 +49,11 @@ sort country year
 		xlabel(2007(2)2015) ///
 		xtitle("Year",placement(se)) ///
 		ylabel(,angle(0)) ///
-		ytitle("Total inflation-adjusted economic growth" "2007=100") ///
+		ytitle("Real GDP" "2007=100") ///
 		title("Cumulative change of real GDP since 2007",pos(12) size(*.9)) ///
 		subtitle("Euro area countries only", pos(12)) ///
 		legend(off) xsize(12) ysize(10) name(g_gdp_ea, replace)		
-	graph save "H:\temp\chart-ea.png", replace
+	graph save "H:\temp\chart-ea.gph", replace
 	graph export "H:\temp\chart-ea.png", replace
 	drop maxyears
 	
@@ -67,7 +67,7 @@ marker(1,mcolor(purple*.65) msize(*1.3)) ///
 marker(2,mcolor(orange*.76) msize(*1.3)) ///  
 legend(label(1 "2000-07") label(2 "2008-15") order(2 1) rows(1) pos(12) region(lcolor(white)) size(*1.2)) ///
 xsize(13) ysize(10)
-graph save "H:\temp\dot-eu.png", replace
+graph save "H:\temp\dot-eu.gph", replace
 graph export "H:\temp\dot-eu.png", replace 
 
 
@@ -97,11 +97,11 @@ graph export "H:\temp\dot-eu.png", replace
 		graphregion(color(white)) ///
 		xtitle("Year",placement(se)) ///
 		ylabel(,angle(0)) ///
-		ytitle("Total inflation-adjusted economic growth" "2007=100") ///
+		ytitle("Real GDP" "2007=100") ///
 		title("Cumulative change of real GDP since 2007",pos(12) size(*.9)) ///
 		subtitle("All EU countries", pos(12)) ///
 		legend(off) xsize(12) ysize(10) name(g_gdp_eu, replace)		
-	graph save "H:\temp\chart-EU.png", replace
+	graph save "H:\temp\chart-EU.gph", replace
 	graph export "H:\temp\chart-EU.png", replace
 	drop maxyears
 
