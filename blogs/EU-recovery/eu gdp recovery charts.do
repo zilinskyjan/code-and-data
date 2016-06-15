@@ -57,19 +57,6 @@ sort country year
 	graph export "H:\temp\chart-ea.png", replace
 	drop maxyears
 	
-* EU DOT CHART
-
-graph dot (asis) gr00to07A gr08to15A if year==2015 & euroarea==1, over(country, sort(gr00to07ANN) descending) ///
-ytitle("Annual real GDP growth (percent)") ///
-title("Pre-crisis and post-crisis growth in the euro area") ///  
-graphregion(color(white)) nofill ///  
-marker(1,mcolor(purple*.65) msize(*1.3)) ///  
-marker(2,mcolor(orange*.76) msize(*1.3)) ///  
-legend(label(1 "2000-07") label(2 "2008-15") order(2 1) rows(1) pos(12) region(lcolor(white)) size(*1.2)) ///
-xsize(13) ysize(10)
-graph save "H:\temp\dot-eu.gph", replace
-graph export "H:\temp\dot-eu.png", replace 
-
 
 * SHOW all EU countries
 	
@@ -106,3 +93,30 @@ graph export "H:\temp\dot-eu.png", replace
 	drop maxyears
 
 	
+* EU DOT CHART
+
+graph dot (asis) gr00to07a gr08to15a if year==2015 & euroarea==1, over(country, sort(gr00to07a) descending) ///
+ytitle("Annual real GDP growth (percent)") ///
+title("Pre-crisis and post-crisis growth in the euro area") ///  
+graphregion(color(white)) nofill ///  
+marker(1,mcolor(purple*.65) msize(*1.3)) ///  
+marker(2,mcolor(orange*.76) msize(*1.3)) ///  
+legend(label(1 "2000-07") label(2 "2008-15") order(2 1) rows(1) pos(12) region(lcolor(white)) size(*1.2)) ///
+xsize(13) ysize(10)
+graph save "H:\temp\dot-eu.gph", replace
+graph export "H:\temp\dot-eu.png", replace 
+
+* A LONG DOT PLOT (nearly all EU countries)
+
+drop if country=="Czech Republic"
+* CZE does not year have 2015 data
+graph dot (asis) gr00to07a gr08to15a if year==2015, over(country, sort(gr00to07a) descending) ///
+ytitle("Annual real GDP growth (percent)") ///
+title("Annual pre-crisis and post-crisis Real GDP growth" "Performance comparison of EU economies", size(small)) ///  
+graphregion(color(white)) nofill ///  
+marker(1,mcolor(green*.65) msize(*1.3)) ///  
+marker(2,mcolor(red*.76) msize(*1.3)) ///  
+legend(label(1 "2000-07") label(2 "2008-15") order(2 1) rows(1) pos(12) region(lcolor(white)) size(*1.2)) ///
+xsize(14) ysize(20)
+graph save "H:\temp\dot-euxx.gph", replace
+graph export "H:\temp\RT-Figure3-blog.png", width(1600) replace 
