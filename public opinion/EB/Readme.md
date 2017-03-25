@@ -1,1 +1,1 @@
-- The file eurobarometer-concerns.csv contains selected issues that citizens mentioned as one of the top 2 concerns faced by their country. This is the mid-year EB wave (that is, November waves, and some other waves are excluded). Year covered: 2005-2016.
+- The file eurobarometer-concerns.csv contains selected issues that citizens mentioned as one of the top 2 concerns faced by their country. This is the mid-year EB wave (that is, November waves, and some other waves are excluded). Years covered: 2005-2016.
