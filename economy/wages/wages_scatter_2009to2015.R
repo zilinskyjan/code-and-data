@@ -19,3 +19,9 @@ p + geom_point(aes(wgrowth0912, wgrowth1215),col="black") +
   geom_text_repel(aes(wgrowth0912, wgrowth1215, label = country), size=4) +
   ylab("Real wage growth (2012-15)") +
   xlab("Real wage growth (2009-12)") 
+
+# + ggtitle("A comparison of two periods") +
+#  theme(plot.title = element_text(size = rel(1.1)),
+#        axis.title.y = element_text(size = rel(1.5), angle = 90),
+#        axis.title.x = element_text(size = rel(1.5)))
+#  ggsave("scatter.png")
