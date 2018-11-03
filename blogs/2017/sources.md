@@ -1,3 +1,3 @@
-Source that have been used include:
+Source:
 
-- Pew Global Attitudes Survey
+Pew Global Attitudes Survey
