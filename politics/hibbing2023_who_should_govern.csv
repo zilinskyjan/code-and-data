@@ -1,0 +1,19 @@
+﻿group,influence_incr,influence_decr,political,type
+People who experienced real problems,59.9,3.5,0,People
+Politicians who can’t beneﬁt themselves,49.4,11.6,0,People
+Scientists,48.3,10.4,0,Experts
+Medical doctors,38.0,7.6,0,Experts
+State and local governments,31.9,13.3,1,Standard
+Unelected experts,31.0,18.3,0,Experts
+Military generals,27.2,16.7,0,Specialized experts
+Random citizens chosen by lot,26.6,14.8,0,People
+Business people,25.2,29.4,0,Specialized experts
+People with substantial previous experience,23.9,16.8,0,People
+People with no previous gov experience,21.9,24.2,0,People
+The president,19.8,25.2,1,Standard
+Religious leaders,18.3,40.3,0,Specialized experts
+Judges,17.1,24.6,0,Experts
+Politicians prohibited from re-election,14.4,34.3,1,Standard
+Members of congress,9.4,33.0,1,Standard
+Billionaires,8.5,58.2,0,Specialized experts
+Bureaucrats,6.1,55.1,1,Standard
