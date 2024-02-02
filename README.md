@@ -1,8 +1,6 @@
 # datasets and code
 
-## papers
-
-[democratic deconsolidation?](https://github.com/zilinskyjan/data_democracy_in_europe)
+### papers [democratic deconsolidation?](https://github.com/zilinskyjan/data_democracy_in_europe)
 
 ## articles
 
