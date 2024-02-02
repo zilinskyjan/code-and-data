@@ -1,3 +1,10 @@
+### Party positions on Ukraine (2023)
+
+* File: CHES_Ukraine_Feb2024.csv
+* Source: https://www.chesdata.eu/ches-europe
+* Please cite as: Hooghe, Liesbet, Gary Marks, Ryan Bakker, Seth Jolly, Jon Polk, Jan Rovny, Marco Steenbergen, Milada Anna Vachudova. 2024. “The Russian Threat and the Consolidation of the West: How Populism and EU-skepticism shape party support for Ukraine.” European Union Politics 25.3
+* Posted in this repo for archiving and immediate access, e.g. for teaching purposes
+
 ### 2018 Texas Election data
 
 * File: texas_2018_senate_race_results.csv
