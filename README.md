@@ -1,8 +1,19 @@
-# datasets and code
+# code and datasets
+
+For various datasets that I use when teaching, see the datafolder within my data visualization course:
+
+- https://github.com/zilinskyjan/DataViz/tree/main/data
+- https://github.com/zilinskyjan/DataViz/tree/main/data_AJPS2021
+- https://github.com/zilinskyjan/DataViz/tree/main/data_macro
+- https://github.com/zilinskyjan/DataViz/tree/main/data_nationscape2019
+
+### misc. charts and calculations
+
+- [self-reported ideology in the US](https://gist.github.com/zilinskyjan/1a04ed07d47277be26edbf34a0850468)  (2022); [chart](https://twitter.com/janzilinsky/status/1752112879157883351/photo/1)
 
 ### paper: [democratic deconsolidation?](https://github.com/zilinskyjan/data_democracy_in_europe)
 
-## articles
+### older articles
 
 *replicate or extend my work*
 
